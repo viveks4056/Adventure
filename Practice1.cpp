@@ -11,7 +11,7 @@ void desArr(int arr[], int size)
     {
         for(int j = i+1; j<size; j++)
         {
-            if(arr[i]<arr[j])
+            if(arr[i]<arr[j])               //if ascending, arr[i]>arr[j]
             {
                 temp = arr[i];
                 arr[i] = arr[j];
